@@ -1,0 +1,40 @@
+.App {
+    height: 100vh;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/image\ 3.svg);
+    height: 372px;
+}
+
+.app__title {
+    position: absolute;
+}
+
+.search__list {
+    background-color: white;
+}
+
+.submit__enter {
+    display: block;
+    width: fit-content;
+    min-width: 300px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
